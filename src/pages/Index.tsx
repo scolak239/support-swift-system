@@ -11,7 +11,8 @@ import {
   Wrench,
   ShieldCheck,
 } from "lucide-react";
-import logo from "@/assets/logo.png";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const trustPoints = [
   { icon: Users, text: "English-speaking professionals" },
