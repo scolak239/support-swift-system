@@ -10,46 +10,47 @@ import {
   Truck,
   Wrench,
   ShieldCheck,
+  Cog,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const trustPoints = [
-  { icon: Users, text: "English-speaking professionals" },
-  { icon: Monitor, text: "Tech-savvy team members" },
-  { icon: ClipboardList, text: "Flexible & scalable staffing" },
+  { icon: Users, text: "Distributed European team" },
+  { icon: Monitor, text: "Tech-savvy professionals" },
+  { icon: ClipboardList, text: "Flexible & scalable solutions" },
 ];
 
 const services = [
   {
-    icon: Users,
-    title: "Account Management",
+    icon: ShieldCheck,
+    title: "IT Support & Maintenance",
     description:
-      "Dedicated account managers who build strong client relationships, handle communication, and drive retention for your business.",
+      "Experienced professionals who manage infrastructure, troubleshoot systems, and keep your technology running smoothly.",
+  },
+  {
+    icon: Cog,
+    title: "Automation Solutions",
+    description:
+      "Streamline your workflows with Google Sheets automation, system integrations, and custom process optimization.",
   },
   {
     icon: Headphones,
-    title: "Customer Support",
+    title: "Customer Support Outsourcing",
     description:
       "Skilled support agents who handle your tickets, calls, and chats — delivering fast, professional service to your customers.",
   },
   {
     icon: Truck,
-    title: "Dispatching Services",
+    title: "Logistics & Dispatch Consulting",
     description:
-      "Efficient dispatchers who coordinate logistics, manage schedules, and ensure timely operations for your fleet or service teams.",
+      "Efficient coordination for logistics operations, schedule management, and dispatch optimization for your fleet or service teams.",
   },
   {
-    icon: ShieldCheck,
-    title: "IT Support",
+    icon: Users,
+    title: "Account Management",
     description:
-      "Experienced IT professionals who manage infrastructure, troubleshoot systems, and keep your technology running smoothly.",
-  },
-  {
-    icon: ClipboardList,
-    title: "Data Entry & Admin",
-    description:
-      "Reliable team members for data entry, CRM updates, documentation, and other administrative tasks your business needs.",
+      "Dedicated account managers who build strong client relationships, handle communication, and drive retention.",
   },
   {
     icon: Wrench,
@@ -60,11 +61,12 @@ const services = [
 ];
 
 const benefits = [
-  "English-speaking professionals with tech backgrounds",
+  "Structured company with a distributed European team",
   "Flexible — scale your team up or down as needed",
   "No recruitment headaches — we handle staffing",
   "Cost-effective alternative to in-house hiring",
   "Seamless integration with your existing tools & workflows",
+  "Long-term partnerships, not one-off projects",
 ];
 
 const fadeUp = {
@@ -97,15 +99,15 @@ const Index = () => {
             className="max-w-3xl"
           >
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground leading-tight mb-6">
-              Your dedicated team for{" "}
+              IT support, automation &{" "}
               <span className="text-orange">
-                customer support, tech support & more.
+                scalable operations for your business.
               </span>
             </h1>
             <p className="text-gray-support text-lg md:text-xl leading-relaxed mb-10 max-w-2xl">
-              SUMITECH provides skilled, English-speaking professionals to
-              handle your customer support, IT support, dispatching, account
-              management, and more — so you can focus on growing your business.
+              SUMITECH is a Slovenia-based tech company providing IT support,
+              workflow automation, customer service outsourcing, and logistics
+              consulting — so you can focus on growing your business.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -208,9 +210,10 @@ const Index = () => {
                 Why Choose SUMITECH?
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                We provide ready-to-work professionals who integrate seamlessly
-                into your existing team and tools. No lengthy hiring processes,
-                no training headaches.
+                We combine local expertise in Slovenia with a trusted network of
+                partners across Europe. Our hybrid model means you get the
+                reliability of a structured company with the flexibility of a
+                distributed team — no lengthy hiring, no overhead.
               </p>
               <ul className="space-y-4">
                 {benefits.map((benefit, i) => (
@@ -247,12 +250,12 @@ const Index = () => {
               </div>
               <div className="relative z-10 space-y-8">
                 {[
+                  { label: "IT Support & Maintenance", desc: "Infrastructure management, troubleshooting & monitoring" },
+                  { label: "Automation Solutions", desc: "Google Sheets, workflow integrations & process optimization" },
                   { label: "Customer Support", desc: "Professional agents for tickets, calls & live chat" },
-                  { label: "IT Support", desc: "Experienced professionals for infrastructure & systems" },
-                  { label: "Dispatching", desc: "Efficient coordination for logistics & scheduling" },
-                  { label: "Account Management", desc: "Dedicated managers for client relationships" },
-                  { label: "Device Repair", desc: "Skilled technicians for hardware & software issues" },
-                  { label: "Data Entry & Admin", desc: "Reliable staff for any back-office task" },
+                  { label: "Logistics Consulting", desc: "Dispatch coordination, route planning & fleet management" },
+                  { label: "Account Management", desc: "Dedicated managers for client relationships & retention" },
+                  { label: "Device Repair", desc: "Hardware & software diagnostics, repair & maintenance" },
                 ].map((item, i) => (
                   <div key={i} className="border-l-2 border-accent pl-4">
                     <p className="text-primary-foreground font-semibold text-sm">
