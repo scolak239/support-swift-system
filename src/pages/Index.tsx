@@ -79,18 +79,7 @@ const fadeUp = {
 const Index = () => {
   return (
     <>
-      {/* NAV */}
-      <nav className="bg-primary py-4">
-        <div className="container mx-auto px-4 lg:px-8 flex items-center justify-between">
-          <img src={logo} alt="SUMITECH Logo" className="h-10 md:h-12" />
-          <Link
-            to="/contact"
-            className="bg-accent text-accent-foreground px-6 py-2.5 rounded-md font-semibold text-sm hover:opacity-90 transition-opacity"
-          >
-            Contact Us
-          </Link>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* HERO */}
       <section className="relative bg-primary overflow-hidden">
