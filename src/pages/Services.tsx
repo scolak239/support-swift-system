@@ -1,41 +1,41 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
-  Headphones, Users, Truck, ShieldCheck, ClipboardList, Wrench, ArrowRight, CheckCircle,
+  Headphones, Users, Truck, ShieldCheck, ClipboardList, Wrench, Cog, ArrowRight, CheckCircle,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const services = [
   {
-    icon: Users,
-    title: "Account Management",
-    description: "Dedicated account managers who build strong client relationships, handle communication, and drive retention for your business.",
-    features: ["Client relationship management", "Communication handling", "Retention strategy", "Reporting & analytics"],
+    icon: ShieldCheck,
+    title: "IT Support & System Maintenance",
+    description: "Experienced IT professionals who manage infrastructure, troubleshoot systems, monitor networks, and keep your technology running smoothly around the clock.",
+    features: ["Infrastructure management", "System troubleshooting", "Network administration", "Security monitoring"],
+  },
+  {
+    icon: Cog,
+    title: "Automation Solutions",
+    description: "Streamline your business with custom Google Sheets automations, workflow integrations, and process optimization that saves time and reduces errors.",
+    features: ["Google Sheets automation", "Workflow integrations", "Process optimization", "Custom scripting & tools"],
   },
   {
     icon: Headphones,
-    title: "Customer Support",
-    description: "Skilled support agents who handle your tickets, calls, and chats — delivering fast, professional service to your customers.",
+    title: "Customer Support Outsourcing",
+    description: "Skilled support agents who handle your tickets, calls, and chats — delivering fast, professional service to your customers on your behalf.",
     features: ["Ticket management", "Live chat support", "Phone support", "Email handling"],
   },
   {
     icon: Truck,
-    title: "Dispatching Services",
-    description: "Efficient dispatchers who coordinate logistics, manage schedules, and ensure timely operations for your fleet or service teams.",
-    features: ["Route optimization", "Schedule management", "Real-time coordination", "Fleet tracking"],
+    title: "Logistics & Dispatch Consulting",
+    description: "Efficient dispatchers and consultants who coordinate logistics, optimize routes, manage schedules, and ensure timely operations for your fleet or service teams.",
+    features: ["Route optimization", "Schedule management", "Real-time coordination", "Fleet tracking & reporting"],
   },
   {
-    icon: ShieldCheck,
-    title: "IT Support",
-    description: "Experienced IT professionals who manage infrastructure, troubleshoot systems, and keep your technology running smoothly.",
-    features: ["Infrastructure management", "System troubleshooting", "Network administration", "Security monitoring"],
-  },
-  {
-    icon: ClipboardList,
-    title: "Data Entry & Admin",
-    description: "Reliable team members for data entry, CRM updates, documentation, and other administrative tasks your business needs.",
-    features: ["CRM data management", "Document processing", "Database maintenance", "Administrative tasks"],
+    icon: Users,
+    title: "Account Management",
+    description: "Dedicated account managers who build strong client relationships, handle communication, and drive retention for your business.",
+    features: ["Client relationship management", "Communication handling", "Retention strategy", "Reporting & analytics"],
   },
   {
     icon: Wrench,
@@ -67,7 +67,7 @@ const Services = () => (
           <p className="text-orange text-sm font-semibold tracking-widest uppercase mb-3">What We Provide</p>
           <h1 className="text-3xl md:text-5xl font-heading font-bold text-primary-foreground mb-4">Our Services</h1>
           <p className="text-gray-support text-lg max-w-2xl mx-auto">
-            From customer support to IT infrastructure, we provide skilled professionals ready to integrate with your team.
+            From IT infrastructure to workflow automation, we provide skilled professionals and scalable solutions tailored to your business needs.
           </p>
         </motion.div>
       </div>

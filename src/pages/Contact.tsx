@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowRight, MessageCircle } from "lucide-react";
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -67,9 +67,10 @@ const Contact = () => {
             <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="space-y-8">
               <h2 className="text-2xl font-heading font-semibold text-foreground mb-6">Contact Information</h2>
               {[
-                { icon: Mail, label: "Email", value: "info@sumitech.eu" },
-                { icon: Phone, label: "Phone", value: "+386 70 493 447" },
-                { icon: MapPin, label: "Location", value: "Planinska Cesta 29, Sevnica, 8290, Slovenia" },
+                { icon: Mail, label: "Email", value: "info@sumitech.eu", href: "mailto:info@sumitech.eu" },
+                { icon: Phone, label: "Phone", value: "+386 70 493 447", href: "tel:+38670493447" },
+                { icon: MessageCircle, label: "WhatsApp", value: "Chat with us on WhatsApp", href: "https://wa.me/38670493447" },
+                { icon: MapPin, label: "Location", value: "Planinska Cesta 29, Sevnica, 8290, Slovenia", href: undefined },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center shrink-0">
@@ -77,7 +78,18 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">{item.label}</p>
-                    <p className="text-foreground font-medium">{item.value}</p>
+                    {item.href ? (
+                      <a
+                        href={item.href}
+                        target={item.href.startsWith("https") ? "_blank" : undefined}
+                        rel={item.href.startsWith("https") ? "noopener noreferrer" : undefined}
+                        className="text-foreground font-medium hover:text-accent transition-colors"
+                      >
+                        {item.value}
+                      </a>
+                    ) : (
+                      <p className="text-foreground font-medium">{item.value}</p>
+                    )}
                   </div>
                 </div>
               ))}
