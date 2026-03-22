@@ -300,15 +300,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="bg-primary py-10">
-        <div className="container mx-auto px-4 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <img src={logo} alt="SUMITECH" className="h-8" />
-          <p className="text-gray-support text-sm">
-            © {new Date().getFullYear()} SUMITECH. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 };
