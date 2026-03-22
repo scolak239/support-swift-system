@@ -67,9 +67,9 @@ const Contact = () => {
             <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="space-y-8">
               <h2 className="text-2xl font-heading font-semibold text-foreground mb-6">Contact Information</h2>
               {[
-                { icon: Mail, label: "Email", value: "info@sumitech.com" },
-                { icon: Phone, label: "Phone", value: "+1 (555) 000-0000" },
-                { icon: MapPin, label: "Location", value: "Available Worldwide" },
+                { icon: Mail, label: "Email", value: "info@sumitech.eu" },
+                { icon: Phone, label: "Phone", value: "+386 70 493 447" },
+                { icon: MapPin, label: "Location", value: "Planinska Cesta 29, Sevnica, 8290, Slovenia" },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center shrink-0">
