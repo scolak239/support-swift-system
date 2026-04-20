@@ -295,7 +295,7 @@ const About = () => (
               Local Expertise. European Reach.
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              SUMITECH combines local expertise based in Slovenia with a
+              SumiTech combines local expertise based in Slovenia with a
               carefully curated network of trusted partners and collaborators
               across Europe. This hybrid model allows us to deliver scalable,
               high-quality solutions while maintaining the agility and personal
