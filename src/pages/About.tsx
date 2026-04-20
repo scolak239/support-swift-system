@@ -292,7 +292,7 @@ const About = () => (
               Our Team
             </p>
             <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">
-              Local Expertise. European Reach.
+              Local Expertise. Global Reach.
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               SumiTech combines local expertise based in Slovenia with a
