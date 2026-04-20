@@ -61,7 +61,7 @@ const services = [
 ];
 
 const benefits = [
-  "Structured company with a distributed European team",
+  "Structured company with a distributed team across Europe & North America",
   "Flexible — scale your team up or down as needed",
   "No recruitment headaches — we handle staffing",
   "Cost-effective alternative to in-house hiring",
