@@ -14,7 +14,7 @@ const Footer = () => (
           <Link to="/contact" className="hover:text-accent transition-colors">Contact</Link>
         </div>
         <p className="text-gray-support text-sm">
-          © {new Date().getFullYear()} SUMITECH. All rights reserved.
+          © {new Date().getFullYear()} SumiTech. All rights reserved.
         </p>
       </div>
     </div>

@@ -110,7 +110,7 @@ const About = () => (
             Built for Scale. Driven by Trust.
           </h1>
           <p className="text-gray-support text-lg max-w-2xl mx-auto">
-            SUMITECH is a Slovenia-based tech company delivering IT support,
+            SumiTech is a Slovenia-based tech company delivering IT support,
             automation, customer service, and logistics solutions to businesses
             across Europe.
           </p>
@@ -132,7 +132,7 @@ const About = () => (
               Who We Are
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              SUMITECH was founded to help businesses access reliable tech
+              SumiTech was founded to help businesses access reliable tech
               talent and operational support — without the complexity of
               traditional hiring. Based in Slovenia, we operate with a hybrid
               model: core operations are managed locally, while work is
@@ -295,7 +295,7 @@ const About = () => (
               Local Expertise. European Reach.
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              SUMITECH combines local expertise based in Slovenia with a
+              SumiTech combines local expertise based in Slovenia with a
               carefully curated network of trusted partners and collaborators
               across Europe. This hybrid model allows us to deliver scalable,
               high-quality solutions while maintaining the agility and personal
