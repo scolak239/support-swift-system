@@ -112,7 +112,7 @@ const About = () => (
           <p className="text-gray-support text-lg max-w-2xl mx-auto">
             SumiTech is a Slovenia-based tech company delivering IT support,
             automation, customer service, and logistics solutions to businesses
-            across Europe.
+            across Europe, USA, and Canada.
           </p>
         </motion.div>
       </div>
