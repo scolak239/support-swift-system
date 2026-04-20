@@ -105,7 +105,7 @@ const Index = () => {
               </span>
             </h1>
             <p className="text-gray-support text-lg md:text-xl leading-relaxed mb-10 max-w-2xl">
-              SUMITECH is a Slovenia-based tech company providing IT support,
+              SumiTech is a Slovenia-based tech company providing IT support,
               workflow automation, customer service outsourcing, and logistics
               consulting — so you can focus on growing your business.
             </p>
