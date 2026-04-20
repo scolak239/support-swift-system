@@ -137,7 +137,7 @@ const About = () => (
               traditional hiring. Based in Slovenia, we operate with a hybrid
               model: core operations are managed locally, while work is
               delivered through a network of trusted remote collaborators across
-              Europe.
+              Europe, USA, and Canada.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               We specialize in IT support & system maintenance, workflow
