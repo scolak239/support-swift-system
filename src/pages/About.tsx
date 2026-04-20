@@ -292,12 +292,12 @@ const About = () => (
               Our Team
             </p>
             <h2 className="text-3xl md:text-4xl font-heading text-foreground mb-6">
-              Local Expertise. European Reach.
+              Local Expertise. Global Reach.
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               SumiTech combines local expertise based in Slovenia with a
               carefully curated network of trusted partners and collaborators
-              across Europe. This hybrid model allows us to deliver scalable,
+              across Europe, USA, and Canada. This hybrid model allows us to deliver scalable,
               high-quality solutions while maintaining the agility and personal
               touch of a focused team.
             </p>
