@@ -211,9 +211,9 @@ const Index = () => {
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-8">
                 We combine local expertise in Slovenia with a trusted network of
-                partners across Europe. Our hybrid model means you get the
-                reliability of a structured company with the flexibility of a
-                distributed team — no lengthy hiring, no overhead.
+                partners across Europe and North America. Our hybrid model means
+                you get the reliability of a structured company with the
+                flexibility of a distributed team — no lengthy hiring, no overhead.
               </p>
               <ul className="space-y-4">
                 {benefits.map((benefit, i) => (
