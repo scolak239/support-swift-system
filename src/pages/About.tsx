@@ -297,7 +297,7 @@ const About = () => (
             <p className="text-muted-foreground leading-relaxed mb-4">
               SumiTech combines local expertise based in Slovenia with a
               carefully curated network of trusted partners and collaborators
-              across Europe. This hybrid model allows us to deliver scalable,
+              across Europe, USA, and Canada. This hybrid model allows us to deliver scalable,
               high-quality solutions while maintaining the agility and personal
               touch of a focused team.
             </p>
