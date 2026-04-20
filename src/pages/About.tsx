@@ -110,7 +110,7 @@ const About = () => (
             Built for Scale. Driven by Trust.
           </h1>
           <p className="text-gray-support text-lg max-w-2xl mx-auto">
-            SUMITECH is a Slovenia-based tech company delivering IT support,
+            SumiTech is a Slovenia-based tech company delivering IT support,
             automation, customer service, and logistics solutions to businesses
             across Europe.
           </p>
