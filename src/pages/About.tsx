@@ -132,7 +132,7 @@ const About = () => (
               Who We Are
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              SUMITECH was founded to help businesses access reliable tech
+              SumiTech was founded to help businesses access reliable tech
               talent and operational support — without the complexity of
               traditional hiring. Based in Slovenia, we operate with a hybrid
               model: core operations are managed locally, while work is
