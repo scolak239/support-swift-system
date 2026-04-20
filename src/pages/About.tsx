@@ -48,7 +48,7 @@ const processSteps = [
     step: "03",
     title: "We Deliver",
     description:
-      "Our internal team and trusted partners across Europe execute the work — integrated seamlessly into your workflows.",
+      "Our internal team and trusted partners across Europe and North America execute the work — integrated seamlessly into your workflows.",
   },
   {
     icon: Shield,

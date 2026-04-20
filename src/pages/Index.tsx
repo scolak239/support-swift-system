@@ -16,7 +16,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const trustPoints = [
-  { icon: Users, text: "Distributed European team" },
+  { icon: Users, text: "Distributed team across Europe & North America" },
   { icon: Monitor, text: "Tech-savvy professionals" },
   { icon: ClipboardList, text: "Flexible & scalable solutions" },
 ];
@@ -61,7 +61,7 @@ const services = [
 ];
 
 const benefits = [
-  "Structured company with a distributed European team",
+  "Structured company with a distributed team across Europe & North America",
   "Flexible — scale your team up or down as needed",
   "No recruitment headaches — we handle staffing",
   "Cost-effective alternative to in-house hiring",
@@ -211,9 +211,9 @@ const Index = () => {
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-8">
                 We combine local expertise in Slovenia with a trusted network of
-                partners across Europe. Our hybrid model means you get the
-                reliability of a structured company with the flexibility of a
-                distributed team — no lengthy hiring, no overhead.
+                partners across Europe and North America. Our hybrid model means
+                you get the reliability of a structured company with the
+                flexibility of a distributed team — no lengthy hiring, no overhead.
               </p>
               <ul className="space-y-4">
                 {benefits.map((benefit, i) => (
