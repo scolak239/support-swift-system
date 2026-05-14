@@ -433,7 +433,7 @@ const About = () => (
             Ready to build your dedicated team?
           </h2>
           <p className="text-gray-support text-lg mb-10 max-w-xl mx-auto">
-            Let's discuss how SUMITECH can help you scale operations, reduce
+Let's discuss how SumiTech can help you scale operations, reduce
             costs, and grow with confidence.
           </p>
           <Link
