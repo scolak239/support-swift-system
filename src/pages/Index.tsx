@@ -16,7 +16,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const trustPoints = [
-  { icon: Users, text: "Distributed team across Europe & North America" },
+  { icon: Users, text: "Distributed team across Europe, North America & Canada" },
   { icon: Monitor, text: "Tech-savvy professionals" },
   { icon: ClipboardList, text: "Flexible & scalable solutions" },
 ];
