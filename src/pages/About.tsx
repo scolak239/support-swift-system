@@ -388,7 +388,7 @@ const About = () => (
           className="text-center mb-16"
         >
           <p className="text-orange text-sm font-semibold tracking-widest uppercase mb-3">
-            The SUMITECH Advantage
+            The SumiTech Advantage
           </p>
           <h2 className="text-3xl md:text-4xl font-heading text-foreground">
             Why Choose Us
