@@ -12,15 +12,28 @@ const Contact = () => {
   const { toast } = useToast();
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      toast({ title: "Message sent!", description: "We'll get back to you shortly." });
-      (e.target as HTMLFormElement).reset();
-    }, 1000);
-  };
+const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+
+  const form = e.currentTarget;
+  const formData = new FormData(form);
+
+  const text = `
+New message from website:
+
+Name: ${formData.get("name")}
+Email: ${formData.get("email")}
+Company: ${formData.get("company")}
+Subject: ${formData.get("subject")}
+
+Message:
+${formData.get("message")}
+`;
+
+  window.location.href = `https://wa.me/38670493447?text=${encodeURIComponent(text)}`;
+
+  form.reset();
+};
 
   return (
     <>
