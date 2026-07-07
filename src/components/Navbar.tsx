@@ -1,7 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.png";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -18,7 +17,7 @@ const Navbar = () => {
     <nav className="bg-primary py-4">
       <div className="container mx-auto px-4 lg:px-8 flex items-center justify-between">
         <Link to="/">
-          <img src={logo} alt="SUMITECH Logo" className="h-10 md:h-12" />
+          <img src="/logo.png" alt="SUMITECH Logo" className="h-10 md:h-12" />
         </Link>
 
         {/* Desktop */}
