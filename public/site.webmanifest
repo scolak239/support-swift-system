@@ -1,0 +1,22 @@
+{
+  "name": "SUMITECH — Business & Technology Consulting",
+  "short_name": "SUMITECH",
+  "description": "Business and technology consulting, customer support, IT support, dispatching, account management, data entry, and device repair.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1b2030",
+  "theme_color": "#1b2030",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
